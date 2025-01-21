@@ -4,10 +4,11 @@
 This repository contains two Bash scripts designed for monitoring system performance metrics like **CPU usage, memory usage, disk space, and system uptime.** These scripts generate reports in both **CSV and plain text**  formats for further analysis.
 
 Scripts
-  1.server_report.sh
+
+ * 1.server_report.sh
 This script generates a detailed server report in CSV format, including information about CPU usage, memory usage, disk usage, and uptime. It appends the report to a file called server_report.csv located on the desktop.
 
-  2.ascii_server_report.sh
+ * 2.ascii_server_report.sh
 This script creates a system performance report in a visually appealing text format, displayed with ASCII art headers and including CPU usage, memory usage, and disk statistics. The report is printed to the console and stored in report.txt.
 
 Usage
@@ -41,7 +42,7 @@ Open the crontab editor by running:
 
 
 
-            crontab -e
+    crontab -e
 
 Add the following lines to schedule the scripts:
 
