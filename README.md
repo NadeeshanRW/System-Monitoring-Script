@@ -10,25 +10,25 @@ This script generates a detailed server report in CSV format, including informat
   2.ascii_server_report.sh
 This script creates a system performance report in a visually appealing text format, displayed with ASCII art headers and including CPU usage, memory usage, and disk statistics. The report is printed to the console and stored in report.txt.
 
-         ** ((Usage))**
+   ** ((Usage))**
           
 Running the Scripts Manually
 server_report.sh
 
 This script will generate a CSV report. You can run it from the terminal:
 
-================================================
-./server_report.sh
-===============================================
+
+    ./server_report.sh
+
   *The report will be saved in /home/nadiya/Desktop/server_report.csv.
 
 **((ascii_server_report.sh))**
 
 This script will generate a system report in text format with ASCII art. You can run it by:
 
-==============================================
-./ascii_server_report.sh
-=============================================
+
+    ./ascii_server_report.sh
+
 The report will be displayed in the terminal and saved as /home/**HOST COMPUTER NAME **/Desktop/report.txt.
 
   ** ((Automating with Crontab))**
